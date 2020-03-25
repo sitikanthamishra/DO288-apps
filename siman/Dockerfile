@@ -1,3 +1,3 @@
-FROM   registry.access.redhat.com/ubi8/ubi:8.0
+FROM   registry.redhat.io/ubi7/ubi-init:latest
 RUN useradd siman
 USER siman
