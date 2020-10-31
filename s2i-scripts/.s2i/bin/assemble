@@ -11,8 +11,8 @@ config_s2i
 ######## CUSTOMIZATION STARTS HERE ############
 
 echo "---> Installing application source"
-cp -f /tmp/src/*.html  ./
-DATE= `date`
+cp -rf /tmp/src/*.html  ./
+DATE=`date`
 echo "$DATE the time when the image is built" >> info.html
 
 
